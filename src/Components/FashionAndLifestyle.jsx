@@ -5,7 +5,7 @@ const FashionAndLifestyle = () => {
   return (
     <>
       <div className=" w-full h-full flex justify-center ">
-        <div className=" w-[1140px] h-[546px] items-center flex gap-[30px] ">
+        <div className=" w-[1170px] h-[546px] items-center flex gap-[30px] ">
           {/* 1st div */}
           <div className="w-[770px] h-[546px] ">
             <div className="w-full mb-[21px] gap-[11px] flex items-center">

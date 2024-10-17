@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import MostPopularNews from "./MostPopularNews";
 import Navbar from "./Navbar";
 import Topnews from "./Topnews";
@@ -8,12 +7,13 @@ import FashionAndLifestyle from "./FashionAndLifestyle";
 import Topbar from "./Topbar";
 import FirstTopBar from "./FirstTopBar";
 import TrandingNews from "./TrandingNews";
+import VideoPart from "./VideoPart";
+
 
 const HomeComponent = () => {
   return (
     <>
       <div className="main">
-
         {/* top bar one */}
         <FirstTopBar />
         {/* top bar one */}
@@ -43,48 +43,18 @@ const HomeComponent = () => {
         {/* top saven */}
 
         {/* top egiht */}
-        <TrandingNews/>
+        <TrandingNews />
         {/* top egiht */}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        {/* video part  */}
+        <VideoPart />
+        {/* video part  */}
         
+
+
+
+
+
       </div>
     </>
   );

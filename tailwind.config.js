@@ -10,7 +10,11 @@ export default {
       'WorkSans' : ['Work Sans', 'sans-serif'],
       'lato' : ["Lato", 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors:{
+        'brand': '#00061D',
+      }
+    },
   },
   plugins: [],
 }

@@ -6,7 +6,7 @@ const TrandingNews = () => {
     <>
 
     <div className=" w-full h-full flex justify-center mt-[57px] ">
-        <div className=" w-[1170px] h-full ml-5 ">
+        <div className=" w-[1190px] h-full ml-5 ">
             <div className=" flex items-center gap-[9px] mb-[21px] ">
                 <h3 className=' text-[25px] font-WorkSans font-semibold text-[#000D39] '>Trending News</h3>
                 <div className=" w-[979px] h-[1px] bg-[#EEEEEE] "></div>
