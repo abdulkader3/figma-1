@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
     <nav className='h-[80px] bg-[#E5E9F6] flex justify-center w-full'>
-        <div className="navOneDiv   w-[1170px] flex justify-between items-center  ">
+        <div className="navOneDiv w-full flex justify-between items-center  ">
             <ul className='flex justify-between w-[80%] '>
                 <li className=' text-[17px] font-semibold font-WorkSans text-[#000D39] hover:text-[#E12127] transition-all ' > <Link to='#' > Home+ </Link> </li>
                 <li className=' text-[17px] font-semibold font-WorkSans text-[#000D39] hover:text-[#E12127] transition-all ' > <Link to='#' > Fashion </Link> </li>

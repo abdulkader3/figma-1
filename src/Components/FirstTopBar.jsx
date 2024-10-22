@@ -4,7 +4,7 @@ const FirstTopBar = () => {
   return (
     <>
       <div className="top w-full h-[50px] flex justify-center  bg-[#000D39] ">
-        <div className=" w-[1170px] flex items-center gap-[227px]  justify-end ">
+        <div className=" w-full flex items-center justify-between ">
           {/* one */}
           <div className=" flex gap-[19px]">
             {/* Tranding */}

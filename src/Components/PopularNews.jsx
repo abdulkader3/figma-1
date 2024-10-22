@@ -216,21 +216,12 @@ const PopularNews = () => {
 
           {/* tow */}
         </div>
-        <div className=" w-[770px] h-[130px] midPageAdd absolute  left-[25%] bottom-[-50px] ">
-          <div className=" flex gap-[10px] items-center justify-end pr-2 ">
-            <p className=" text-[16px] text-[#cfcfcf] ">
-              {" "}
-              <IoIosInformationCircleOutline />{" "}
-            </p>
-            <p className=" text-[16px] text-[#cfcfcf] ">X</p>
-          </div>
-
-
-            <Ad/>
 
 
 
-        </div>
+       <Ad/>
+
+
       </div>
     </>
   );

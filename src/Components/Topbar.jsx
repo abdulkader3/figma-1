@@ -10,7 +10,7 @@ const Topbar = () => {
   return (
     <>
       <div className="tow flex h-[150px] bg-[#F1F4FF] justify-center ">
-        <div className=" h-[150px] w-[1170px] flex justify-between items-center ">
+        <div className=" h-[150px] w-full flex justify-between items-center ">
           {/* logo */}
           <img
             className=" w-[242px] h-[60px] "

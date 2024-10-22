@@ -8,6 +8,8 @@ import Topbar from "./Topbar";
 import FirstTopBar from "./FirstTopBar";
 import TrandingNews from "./TrandingNews";
 import VideoPart from "./VideoPart";
+import Covid from "./Covid";
+
 
 
 const HomeComponent = () => {
@@ -49,6 +51,12 @@ const HomeComponent = () => {
         {/* video part  */}
         <VideoPart />
         {/* video part  */}
+
+        {/* Covid part */}
+        <Covid/>
+        {/* Covid part */}
+
+       
         
 
 

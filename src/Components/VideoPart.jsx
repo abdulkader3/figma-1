@@ -2,11 +2,12 @@ import React from "react";
 import ButtomPart from "./subComponet/videoPart/ButtomPart";
 import IndividualPart from "./subComponet/videoPart/IndividualPart";
 import { FaRegClock } from "react-icons/fa6";
+import Ad from "./subComponet/Ad";
 
 const VideoPart = () => {
   return (
     <>
-      <div className=" w-full h-[720px] pt-[56px] pb-[64px] flex bg-brand justify-center ">
+      <div className=" w-full h-[720px] pt-[56px] pb-[64px] flex bg-brand justify-center relative ">
         <div className="w-[1170px] h-full ">
           {/* top part */}
           <div className="w-full flex mb-[19px] items-center gap-[14px] text-[25px] font-WorkSans font-semibold text-white ">
@@ -31,6 +32,8 @@ const VideoPart = () => {
             </div>
           </div>
         </div>
+
+        <Ad/>
       </div>
     </>
   );

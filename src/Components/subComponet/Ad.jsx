@@ -1,9 +1,20 @@
 import React from "react";
+import { IoIosInformationCircleOutline } from "react-icons/io";
 
 const Ad = () => {
   return (
     <>
-      {/* add */}
+       <div className=" w-[770px] h-[130px] midPageAdd absolute  left-[25%] bottom-[-200px] ">
+          <div className=" flex gap-[10px] items-center justify-end pr-2 ">
+            <p className=" text-[16px] text-[#cfcfcf] ">
+              {" "}
+              <IoIosInformationCircleOutline />{" "}
+            </p>
+            <p className=" text-[16px] text-[#cfcfcf] ">X</p>
+          </div>
+
+
+            {/* add */}
       <div className=" w-full flex justify-between items-center  ">
         <div className=" ml-[30px] w-[147px] text-[15px] font-semibold font-WorkSans text-white h-[44px] ">
           <p> Smart & Responsive ADVERTISEMENT </p>
@@ -17,6 +28,10 @@ const Ad = () => {
         </button>
       </div>
       {/* add */}
+
+
+
+        </div>
     </>
   );
 };
